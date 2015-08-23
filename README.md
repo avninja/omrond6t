@@ -15,19 +15,19 @@ kwargs
 
 Usage
 -----
-'''bash
+```bash
 import omrond6t
 omron = OmronD6T(rasPiChannel=1, omronAddress=0x0a, arraySize=8)
 bytes_read, temperature = omron.read()
 print "Bytes read:", bytes_read
 print "Temperature List:", temperature
-'''
+```
 
 Example Result:
-'''bash
+```bash
 Bytes Read: 19
 Temerature List: [73.55, 73.55, 73.55, 73.55, 73.55, 73.55, 73.55, 73.55]
-'''
+```
 
 Notes
 -----
