@@ -31,4 +31,5 @@ Temerature List: [73.55, 73.55, 73.55, 73.55, 73.55, 73.55, 73.55, 73.55]
 
 Notes
 -----
-bytes_read == 0 indicates failure to read data from sensor array
+- bytes_read == 0 indicates failure to read data from sensor array
+- This module, currently, converts all temperatures to Farenheit
